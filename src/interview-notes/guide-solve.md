@@ -1,0 +1,10 @@
+**<h1> INTERVIEW PROBLEM SOLVING GUIDE </h1>**  
+this problem solving guide solely focus on interview based environment  
+
+1. DONT HASITATE TO ASK QUESTIONS  
+2. FIND THE INITIAL CLUE THAT DEFINES WHAT TO DO IN THE PROBLEM  
+3. ASK QUESTIONS THAT DEDUCT TYPE OF PROBLEM AND ITS STATEMENT  
+4. DEDUCTION TECHNIQUE: gather data from all sorts of ways the data required for it are: structure, data type , positives and negatives.
+5. FIND THE SIMPLEST SOLUTION POSSIBLE WITH THE SIMPLEST ALGORITHM
+6. OPTIMIZE USING BETTER APPROACHES AND STRUCTURES 
+
