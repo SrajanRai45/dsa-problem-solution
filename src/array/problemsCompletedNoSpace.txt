@@ -1,1 +1,25 @@
 longest substring : medium
+
+fruit basket: medium : sol
+class Solution(object):
+    def totalFruit(self, fruits):
+        m = dict()
+        maxCount = 0
+        for i,treeType in enumerate(fruits):
+            if treeType not in m and len(m) < 2:
+                m[treeType] = 1
+            elif treeType in m:
+                m[treeType] += 1
+            else:
+                m.clear()
+                indexBuffer = i - 1
+                lastElement = fruits[indexBuffer]
+                m[lastElement] = 1
+                indexBuffer -= 1
+                while indexBuffer > -1 and fruits[indexBuffer] == lastElement:
+                    m[lastElement] += 1
+                    indexBuffer -= 1
+                m[treeType] = 1
+            maxCount = max(maxCount, sum(m.values()))
+        return maxCount
+
